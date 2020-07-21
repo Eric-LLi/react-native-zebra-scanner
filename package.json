@@ -3,7 +3,7 @@
   "title": "React Native Zebra Scanner",
   "version": "1.0.0",
   "description": "TODO",
-  "main": "index.js",
+  "main": "./src/index.js",
   "files": [
     "src",
     "README.md",
@@ -22,8 +22,8 @@
     "react-native"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "yaoweili",
+    "email": "ericli1116@gmail.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
