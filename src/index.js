@@ -21,12 +21,4 @@ ZebraScanner.off = (event) => {
 	}
 };
 
-ZebraScanner.removeAll = (event) => {
-	if (Object.hasOwnProperty.call(events, event)) {
-		eventEmitter.removeAllListeners(event);
-
-		events[event] = [];
-	}
-}
-
 export default ZebraScanner;
