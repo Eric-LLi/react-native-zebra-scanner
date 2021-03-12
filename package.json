@@ -5,10 +5,20 @@
   "description": "TODO",
   "main": "./src/index.js",
   "files": [
-    "src",
-    "README.md",
     "android",
-    "index.js"
+    "src",
+    "!.DS_Store",
+    "!.gradle",
+    "!.idea",
+    "!build",
+    "!gradle",
+    "!*.iml",
+    "!gradlew",
+    "!gradlew.bat",
+    "!local.properties",
+    "!project.xcworkspace",
+    "!xcshareddata",
+    "!xcuserdata"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
