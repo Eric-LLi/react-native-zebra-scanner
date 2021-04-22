@@ -19,7 +19,7 @@ import static com.zebra.scannercontrol.DCSSDKDefs.DCSSDK_MODE.DCSSDK_OPMODE_BT_N
 
 public class ZebraScannerModule extends ReactContextBaseJavaModule implements LifecycleEventListener, IDcsSdkApiDelegate {
 
-	private final String LOG = "[ZEBRA Barcode] ";
+	private final String LOG = "[ZEBRA Barcode]";
 	private final String BARCODE = "BARCODE";
 	private final ReactApplicationContext reactContext;
 	private static SDKHandler sdkHandler = null;
